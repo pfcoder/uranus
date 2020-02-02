@@ -71,7 +71,7 @@ X-REQUEST-TYPE: GraphQL
 query ListUsers {
     users {
         name
-        userUuid
+        uuid
         email
         createdAt
     }
