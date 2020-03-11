@@ -1,0 +1,6 @@
+CREATE TABLE goods (
+    id SERIAL PRIMARY KEY,
+    uuid UUID NOT NULL,
+    title VARCHAR(255) NOT NULL,    
+    created_at TIMESTAMP NOT NULL DEFAULT NOW()
+);
